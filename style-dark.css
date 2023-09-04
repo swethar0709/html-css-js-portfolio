@@ -1,0 +1,17 @@
+[data-theme="dark"] body {
+    background-color: #333;
+    color: white; /* Off White */
+}
+
+/* Styles for anchor, paragraph, and headers inside .example-element when dark theme is active */
+[data-theme="dark"] a,
+[data-theme="dark"] p,
+[data-theme="dark"]  h1,
+[data-theme="dark"]  {
+    color: #c0c0c0; /* Off White */
+}
+
+
+[data-theme="dark"]  h3 {
+    color: #000 ;
+}
