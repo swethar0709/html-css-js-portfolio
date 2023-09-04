@@ -264,19 +264,37 @@ input:checked + .slider:before {
     text-align: center;
   }
 
-  #socials-container {
+  #social-container {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
     gap: 1rem;
-  }  
+  }   
 
   /*ICONS*/
 
-  .icon{
+  .icon {
     cursor: pointer;
-    height: 2rem;
+    /*height: 8rem;  /* this value was changed from 2rem to 4rem to increase the size */
+}
+
+.icon-container {
+    cursor: pointer;
+    display: inline-block; /* Display icons side by side */
+    margin: 0 0.5rem; /* Add spacing between icons */
   }
+  
+  .icon {
+    max-width: 100%; /* Ensure the icon fits within its container */
+  }
+
+  .social-icon {
+    cursor: pointer;
+    /* You can adjust the width and height values here */
+  }
+  
+  
+
 
   /*BUTTONS*/
 
@@ -329,7 +347,9 @@ input:checked + .slider:before {
 /*ABOUT*/
 
 #about {
+    
   position: relative;
+ 
 }
 
 .about-containers {
@@ -338,6 +358,7 @@ input:checked + .slider:before {
   margin-top: 8rem;
   
 }
+
 
 .about-details-container {
   justify-content: center;
@@ -375,6 +396,8 @@ input:checked + .slider:before {
 .section-container {
   gap: 4rem;
   height: 80%;
+  margin-top: 4rem;
+ 
 }
 
 .section__pic-container {
@@ -395,7 +418,13 @@ input:checked + .slider:before {
 #experience {
     margin-top: 10rem; 
     position: relative;
+    
 }
+
+.section__text__p1_e {
+    text-align: center;
+    margin-top: 3rem;
+  }
 
 .experience-sub-title {
     color: rgb(85, 85, 85);
@@ -520,9 +549,6 @@ article {
   footer p {
     text-align: center;
   }
- 
-  
-
 
   
   
