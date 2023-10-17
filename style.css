@@ -557,13 +557,4 @@ article {
     text-align: center;
   }
 
-  /* Add a media query for screens with a maximum width of 768px (typical for mobile) */
-/* For screens with a maximum width of 768px (typical for mobile devices) */
-/* For screens with a maximum width of 768px (typical for mobile devices) */
-@media (max-width: 768px) {
-  /* Reduce the margin and padding for the affected sections */
-  #experience, #projects {
-      margin-top:75rem ; /* Adjust the margin as needed */
-      padding: 2rem 0; /* Adjust the padding as needed */
-  }
-}
+ 
