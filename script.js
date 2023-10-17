@@ -1,11 +1,7 @@
+
 document.addEventListener("DOMContentLoaded", function() {
 
-    function toggleMenu() {
-        const menu = document.querySelector(".menu-links");
-        const icon = document.querySelector(".hamburger-icon");
-        menu.classList.toggle("open")
-        icon.classList.toggle("open")
-    }
+   
 
     const toggleSwitch = document.querySelector("#mode-toggle");
     const toggleLabel = document.querySelector(".toggle-label");
@@ -45,4 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Run toggleTheme() initially to set initial state
     toggleTheme();
 
+
 });
+

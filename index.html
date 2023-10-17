@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="mediaqueries.css">
@@ -10,6 +12,7 @@
 <link rel="stylesheet" href="style-dark.css" id="theme-style-dark" /> 
 
 
+<script src="script1.js"></script>
 <script src="script.js"></script>
 
 </head>
@@ -29,28 +32,30 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
+    
     <nav id="hamburger-nav">
-        <div class="logo">Swetha Reddy</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-        </div>
-    </nav>
+      <div class="logo">Swetha Reddy</div>
+      <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+      </div>
+  </nav>
+  
     <section id="profile">
         <div class="section__pic-container">
             <img src="./assets/profile-pic.png" alt="Swetha Reddy profile picture">
@@ -118,21 +123,27 @@
               </br>
               </br>
 
-                Formerly at Accenture as an app development associate, I excelled in Oracle ERP offshore support, specializing in supply chain management. My role involved collaborating with users, documenting solutions, executing tests, and driving enhancements. Awarded for innovation and automation, I'm dedicated to continuous growth and thrive on conquering software industry challenges.
-              </p>
+              <h4>Accenture Experience:</h4>
+
+              During my time at Accenture, I underwent comprehensive training in Java and Data Analytics, which significantly enhanced my skill set and knowledge. This training was instrumental in boosting my proficiency in these areas. I also achieved a high issue resolution rate in real-time application environments, effectively addressing user concerns.
+              
+              Within the Java module, I played an active role in contributing to 75% of the analysis functionalities, leading to improved system performance. I took pride in identifying and efficiently resolving complex application issues, resulting in a substantial enhancement of the overall user experience.
+              
+              I proactively generated comprehensive reports following each version release, utilizing data-driven insights and innovative approaches to continually enhance the application's performance.
+              <br><br>
+              <h4>Internship at Tequed Labs:</h4>
+              
+              During my internship at Tequed Labs, I specialized in supply chain management within the Oracle ERP offshore support environment. In this role, I collaborated with end-users, documented solutions, conducted testing, and drove enhancements to optimize supply chain operations. My dedication to innovation and automation was recognized, and I remain committed to my personal and professional growth in the software industry.
+              
+              My experience at Tequed Labs provided a solid foundation for my subsequent role at Accenture, where I built on my skills and knowledge to deliver even more value to the team and the clients we served.              </p>
             </div>
           </div>
         </div>
-   <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#experience'"
-        />
+   
       </section>
       <section id="experience">
         <p class="section__text__p1_e">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
             <div class="details-container">
@@ -221,6 +232,39 @@
                    
                   </div>
                 </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Node.js</h3>
+                    
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Express.js</h3>
+                    
+                  </div>
+                </article>
               </div>
             </div>
             <div class="details-container">
@@ -259,6 +303,18 @@
                       
                     </div>
                   </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Mongo DB</h3>
+                      
+                    </div>
+                  </article>
+
 
                 </div>
               </div>
@@ -309,18 +365,25 @@
                      
                     </div>
                   </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>VS code</h3>
+                     
+                    </div>
+                  </article>
                 </div>
               </div>
               
           </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
+        
       </section>
+      
     
       <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
@@ -469,7 +532,7 @@
           <div class="nav-links-container">
             <ul class="nav-links">
               <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
+              <li><a href="#experience">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -480,6 +543,7 @@
         <p>Copyright &#169; 2023 Swetha Reddy. All Rights Reserved.</p>
       </footer>
       <script src="script.js"></script>
+      <script src="script1.js"></script>
       <script>
         window.chatbaseConfig = {
         chatbotId: "86mHWvReRgzRGEKByAsHs",
