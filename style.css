@@ -364,6 +364,7 @@ input:checked + .slider:before {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  margin-top: -1rem;
   
 }
 
@@ -408,7 +409,7 @@ input:checked + .slider:before {
 } 
 
 .text-container{
-    margin-top: 6rem; 
+    margin-top: 2rem; 
     
 }
 
