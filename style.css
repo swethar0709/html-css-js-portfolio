@@ -355,8 +355,8 @@ input:checked + .slider:before {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: -4rem;
-  margin-top: 42rem;
+  margin-bottom: rem;
+  margin-top: 2rem;
   
 }
 
@@ -417,15 +417,17 @@ input:checked + .slider:before {
 /* EXPERIENCE SECTION */
 
 #experience {
-    margin-top: 10rem; 
+    
     position: relative;
-    margin-bottom: 30rem;
+    margin-top: -35rem;
+    
+   
     
 }
 
-.section__text__p1_e {
+.section__text__p1_e{
     text-align: center;
-    margin-top: 38rem;
+    margin-top: 40rem;
     
   }
 
@@ -441,7 +443,7 @@ input:checked + .slider:before {
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     justify-content: center;
     gap: 2rem;
-    margin-top: -35rem;
+    margin-top: 2rem;
 }
 
 
